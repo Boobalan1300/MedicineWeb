@@ -1,0 +1,241 @@
+/* header */
+
+.Header-Container {
+  background-color: rgb(206, 238, 244);
+  min-height: 1280px;
+}
+.ingredient-container {
+  padding-top: 300px;
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Header-Container {
+    background-color: rgb(206, 238, 244);
+    min-height: 1200px;
+  }
+  .ingredient-container {
+    margin-top: 200px;
+  }
+}
+/* md */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .Header-Container {
+    background-color: rgb(206, 238, 244);
+    min-height: 1100px;
+  }
+  .ingredient-container {
+    padding-top: 150px;
+  }
+}
+
+/* lg */
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .Header-Container {
+    background-color: rgb(206, 238, 244);
+    min-height: 1000px;
+  }
+}
+
+/* x-lg */
+@media screen and (min-width: 1200px) {
+  .Header-Container {
+    background-color: rgb(206, 238, 244);
+    min-height: 700px;
+  }
+  .ingredient-container {
+    padding-top: 150px;
+  }
+  .max-width-about {
+    width: fit-content;
+  }
+}
+
+.responsive-icon {
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+@media (max-width: 1199.98px) {
+  .responsive-icon {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 2rem;
+  }
+}
+
+.about-icon {
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+@media (max-width: 1199.98px) {
+  .about-icon {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 2rem;
+  }
+}
+
+.max-width-content {
+  max-width: 100px;
+}
+
+@media (max-width: 575.98px) {
+  .max-width-content {
+    max-width: 400px;
+  }
+}
+
+/* about */
+
+.about-bg {
+  background-color: rgb(13, 60, 77);
+}
+/* ingredients */
+
+.fs-small {
+  font-size: 12px;
+}
+
+/* news */
+
+/* sm-below */
+
+.spanning-row {
+  width: 140px;
+  height: 200px;
+  grid-row: auto;
+}
+
+.single-row {
+  width: 140px;
+  height: 100px;
+}
+
+/* small screens (sm) */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .spanning-row {
+    width: 200px;
+    height: 250px;
+    grid-row: auto;
+  }
+
+  .single-row {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+/* Medium screens (md) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .spanning-row {
+    width: 170px;
+    height: 250px;
+    grid-row: auto;
+  }
+
+  .single-row {
+    width: 170px;
+    height: 150px;
+  }
+}
+
+/* Large screens (lg) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .responsive-title {
+    color: green;
+  }
+  .spanning-row {
+    width: 200px;
+    height: 300px;
+    grid-row: span 2;
+  }
+
+  .single-row {
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+}
+
+/* Extra large screens (lg-xl) */
+@media screen and (min-width: 1200px) {
+  .responsive-title {
+    color: blue;
+  }
+
+  .spanning-row {
+    width: 290px;
+    height: 320px;
+    grid-row: span 2;
+  }
+
+  .single-row {
+    background-color: aqua;
+    width: 290px;
+    height: 150px;
+    object-fit: cover;
+  }
+}
+
+.rounded-end-css {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 0.1rem 0.9rem;
+  background-color: rgb(31, 54, 122);
+  color: white;
+}
+
+/* footer */
+
+.footer-section {
+  background-color: rgb(13, 60, 77);
+}
+
+.bg-contact {
+  background-color: rgb(104, 152, 170);
+}
+
+.title-font {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: rgb(13, 60, 77);
+  letter-spacing: 2px;
+}
+
+.font-blue {
+  color: rgb(13, 60, 77);
+  font-weight: 700;
+}
+.button-blue {
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px 20px;
+  background-color: rgb(13, 60, 77);
+  color: white;
+}
+
+.font-grey {
+  color: rgb(82, 82, 82);
+  font-weight: 400;
+}
+
+.ingredient-font {
+  font-size: 13px;
+  color: rgb(82, 82, 82);
+  font-weight: 500;
+}
+.news-font{
+  margin-top: 8px;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+
+}
